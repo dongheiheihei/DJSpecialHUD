@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DJSpecialHUD"
-  s.version      = "1.0.0"
+  s.version      = "1.0.1"
   s.summary      = "一行代码设置HUD"
 
   # This description is used to generate tags and improve search results.
@@ -96,7 +96,7 @@ Pod::Spec.new do |s|
   s.source_files = 'DJSpecialHUD/DJHUD.framework/Headers/*.{h}'
 
   # s.public_header_files = "Classes/**/*.h"
-  s.public_header_files = "DJSpecialHUD/DJHUD.framework/Headers/DJHUD.h"
+  # s.public_header_files = "DJSpecialHUD/DJHUD.framework/Headers/DJHUD.h"
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
