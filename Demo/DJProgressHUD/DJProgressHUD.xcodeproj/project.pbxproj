@@ -1,0 +1,686 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A62EFC52488FAE50045618D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A62EFC42488FAE50045618D /* AppDelegate.m */; };
+		1A62EFCB2488FAE50045618D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A62EFCA2488FAE50045618D /* ViewController.m */; };
+		1A62EFCE2488FAE50045618D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A62EFCC2488FAE50045618D /* Main.storyboard */; };
+		1A62EFD02488FAE70045618D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A62EFCF2488FAE70045618D /* Assets.xcassets */; };
+		1A62EFD32488FAE70045618D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A62EFD12488FAE70045618D /* LaunchScreen.storyboard */; };
+		1A62EFD62488FAE70045618D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A62EFD52488FAE70045618D /* main.m */; };
+		1A62EFE02488FAE70045618D /* DJProgressHUDTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A62EFDF2488FAE70045618D /* DJProgressHUDTests.m */; };
+		1A62EFEB2488FAE70045618D /* DJProgressHUDUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A62EFEA2488FAE70045618D /* DJProgressHUDUITests.m */; };
+		308304F680AE5F4B201010C1 /* libPods-DJProgressHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF4BE2147F5952803279775 /* libPods-DJProgressHUD.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A62EFDC2488FAE70045618D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A62EFB82488FAE50045618D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A62EFBF2488FAE50045618D;
+			remoteInfo = DJProgressHUD;
+		};
+		1A62EFE72488FAE70045618D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A62EFB82488FAE50045618D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A62EFBF2488FAE50045618D;
+			remoteInfo = DJProgressHUD;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A62EFC02488FAE50045618D /* DJProgressHUD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DJProgressHUD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A62EFC32488FAE50045618D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1A62EFC42488FAE50045618D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1A62EFC92488FAE50045618D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1A62EFCA2488FAE50045618D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1A62EFCD2488FAE50045618D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A62EFCF2488FAE70045618D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A62EFD22488FAE70045618D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A62EFD42488FAE70045618D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A62EFD52488FAE70045618D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1A62EFDB2488FAE70045618D /* DJProgressHUDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJProgressHUDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A62EFDF2488FAE70045618D /* DJProgressHUDTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJProgressHUDTests.m; sourceTree = "<group>"; };
+		1A62EFE12488FAE70045618D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A62EFE62488FAE70045618D /* DJProgressHUDUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJProgressHUDUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A62EFEA2488FAE70045618D /* DJProgressHUDUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJProgressHUDUITests.m; sourceTree = "<group>"; };
+		1A62EFEC2488FAE70045618D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90C2D5EC96581CE5840273B9 /* Pods-DJProgressHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJProgressHUD.release.xcconfig"; path = "Target Support Files/Pods-DJProgressHUD/Pods-DJProgressHUD.release.xcconfig"; sourceTree = "<group>"; };
+		C92B0A10979FAA62C6217A74 /* Pods-DJProgressHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DJProgressHUD.debug.xcconfig"; path = "Target Support Files/Pods-DJProgressHUD/Pods-DJProgressHUD.debug.xcconfig"; sourceTree = "<group>"; };
+		ECF4BE2147F5952803279775 /* libPods-DJProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DJProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A62EFBD2488FAE50045618D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				308304F680AE5F4B201010C1 /* libPods-DJProgressHUD.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A62EFD82488FAE70045618D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A62EFE32488FAE70045618D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11747A2B48D277491398365E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECF4BE2147F5952803279775 /* libPods-DJProgressHUD.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1A62EFB72488FAE50045618D = {
+			isa = PBXGroup;
+			children = (
+				1A62EFC22488FAE50045618D /* DJProgressHUD */,
+				1A62EFDE2488FAE70045618D /* DJProgressHUDTests */,
+				1A62EFE92488FAE70045618D /* DJProgressHUDUITests */,
+				1A62EFC12488FAE50045618D /* Products */,
+				C334FE4709CB24BB0ED4069E /* Pods */,
+				11747A2B48D277491398365E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A62EFC12488FAE50045618D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A62EFC02488FAE50045618D /* DJProgressHUD.app */,
+				1A62EFDB2488FAE70045618D /* DJProgressHUDTests.xctest */,
+				1A62EFE62488FAE70045618D /* DJProgressHUDUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A62EFC22488FAE50045618D /* DJProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				1A62EFC32488FAE50045618D /* AppDelegate.h */,
+				1A62EFC42488FAE50045618D /* AppDelegate.m */,
+				1A62EFC92488FAE50045618D /* ViewController.h */,
+				1A62EFCA2488FAE50045618D /* ViewController.m */,
+				1A62EFCC2488FAE50045618D /* Main.storyboard */,
+				1A62EFCF2488FAE70045618D /* Assets.xcassets */,
+				1A62EFD12488FAE70045618D /* LaunchScreen.storyboard */,
+				1A62EFD42488FAE70045618D /* Info.plist */,
+				1A62EFD52488FAE70045618D /* main.m */,
+			);
+			path = DJProgressHUD;
+			sourceTree = "<group>";
+		};
+		1A62EFDE2488FAE70045618D /* DJProgressHUDTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A62EFDF2488FAE70045618D /* DJProgressHUDTests.m */,
+				1A62EFE12488FAE70045618D /* Info.plist */,
+			);
+			path = DJProgressHUDTests;
+			sourceTree = "<group>";
+		};
+		1A62EFE92488FAE70045618D /* DJProgressHUDUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A62EFEA2488FAE70045618D /* DJProgressHUDUITests.m */,
+				1A62EFEC2488FAE70045618D /* Info.plist */,
+			);
+			path = DJProgressHUDUITests;
+			sourceTree = "<group>";
+		};
+		C334FE4709CB24BB0ED4069E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C92B0A10979FAA62C6217A74 /* Pods-DJProgressHUD.debug.xcconfig */,
+				90C2D5EC96581CE5840273B9 /* Pods-DJProgressHUD.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A62EFBF2488FAE50045618D /* DJProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A62EFEF2488FAE70045618D /* Build configuration list for PBXNativeTarget "DJProgressHUD" */;
+			buildPhases = (
+				5FB45E43369051A361D07D4C /* [CP] Check Pods Manifest.lock */,
+				1A62EFBC2488FAE50045618D /* Sources */,
+				1A62EFBD2488FAE50045618D /* Frameworks */,
+				1A62EFBE2488FAE50045618D /* Resources */,
+				66059DBE42E1E71185238AC3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DJProgressHUD;
+			productName = DJProgressHUD;
+			productReference = 1A62EFC02488FAE50045618D /* DJProgressHUD.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A62EFDA2488FAE70045618D /* DJProgressHUDTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A62EFF22488FAE70045618D /* Build configuration list for PBXNativeTarget "DJProgressHUDTests" */;
+			buildPhases = (
+				1A62EFD72488FAE70045618D /* Sources */,
+				1A62EFD82488FAE70045618D /* Frameworks */,
+				1A62EFD92488FAE70045618D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A62EFDD2488FAE70045618D /* PBXTargetDependency */,
+			);
+			name = DJProgressHUDTests;
+			productName = DJProgressHUDTests;
+			productReference = 1A62EFDB2488FAE70045618D /* DJProgressHUDTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A62EFE52488FAE70045618D /* DJProgressHUDUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A62EFF52488FAE70045618D /* Build configuration list for PBXNativeTarget "DJProgressHUDUITests" */;
+			buildPhases = (
+				1A62EFE22488FAE70045618D /* Sources */,
+				1A62EFE32488FAE70045618D /* Frameworks */,
+				1A62EFE42488FAE70045618D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A62EFE82488FAE70045618D /* PBXTargetDependency */,
+			);
+			name = DJProgressHUDUITests;
+			productName = DJProgressHUDUITests;
+			productReference = 1A62EFE62488FAE70045618D /* DJProgressHUDUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A62EFB82488FAE50045618D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = huke_dj;
+				TargetAttributes = {
+					1A62EFBF2488FAE50045618D = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					1A62EFDA2488FAE70045618D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1A62EFBF2488FAE50045618D;
+					};
+					1A62EFE52488FAE70045618D = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = 1A62EFBF2488FAE50045618D;
+					};
+				};
+			};
+			buildConfigurationList = 1A62EFBB2488FAE50045618D /* Build configuration list for PBXProject "DJProgressHUD" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A62EFB72488FAE50045618D;
+			productRefGroup = 1A62EFC12488FAE50045618D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A62EFBF2488FAE50045618D /* DJProgressHUD */,
+				1A62EFDA2488FAE70045618D /* DJProgressHUDTests */,
+				1A62EFE52488FAE70045618D /* DJProgressHUDUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A62EFBE2488FAE50045618D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A62EFD32488FAE70045618D /* LaunchScreen.storyboard in Resources */,
+				1A62EFD02488FAE70045618D /* Assets.xcassets in Resources */,
+				1A62EFCE2488FAE50045618D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A62EFD92488FAE70045618D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A62EFE42488FAE70045618D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FB45E43369051A361D07D4C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DJProgressHUD-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66059DBE42E1E71185238AC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DJProgressHUD/Pods-DJProgressHUD-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-DJProgressHUD/Pods-DJProgressHUD-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-DJProgressHUD/Pods-DJProgressHUD-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A62EFBC2488FAE50045618D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A62EFCB2488FAE50045618D /* ViewController.m in Sources */,
+				1A62EFC52488FAE50045618D /* AppDelegate.m in Sources */,
+				1A62EFD62488FAE70045618D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A62EFD72488FAE70045618D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A62EFE02488FAE70045618D /* DJProgressHUDTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A62EFE22488FAE70045618D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A62EFEB2488FAE70045618D /* DJProgressHUDUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A62EFDD2488FAE70045618D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A62EFBF2488FAE50045618D /* DJProgressHUD */;
+			targetProxy = 1A62EFDC2488FAE70045618D /* PBXContainerItemProxy */;
+		};
+		1A62EFE82488FAE70045618D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A62EFBF2488FAE50045618D /* DJProgressHUD */;
+			targetProxy = 1A62EFE72488FAE70045618D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A62EFCC2488FAE50045618D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A62EFCD2488FAE50045618D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A62EFD12488FAE70045618D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A62EFD22488FAE70045618D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A62EFED2488FAE70045618D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		1A62EFEE2488FAE70045618D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A62EFF02488FAE70045618D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C92B0A10979FAA62C6217A74 /* Pods-DJProgressHUD.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DJProgressHUD",
+					"\"$(SRCROOT)/DJProgressHUD/DJHUD.framework\"",
+				);
+				INFOPLIST_FILE = DJProgressHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"MBProgressHUD\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"DJHUD\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dj.DJProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A62EFF12488FAE70045618D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90C2D5EC96581CE5840273B9 /* Pods-DJProgressHUD.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DJProgressHUD",
+					"\"$(SRCROOT)/DJProgressHUD/DJHUD.framework\"",
+				);
+				INFOPLIST_FILE = DJProgressHUD/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-l\"MBProgressHUD\"",
+					"-framework",
+					"\"CoreGraphics\"",
+					"-framework",
+					"\"QuartzCore\"",
+					"-framework",
+					"\"DJHUD\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dj.DJProgressHUD;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A62EFF32488FAE70045618D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJProgressHUDTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dj.DJProgressHUD.DJProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJProgressHUD.app/DJProgressHUD";
+			};
+			name = Debug;
+		};
+		1A62EFF42488FAE70045618D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJProgressHUDTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dj.DJProgressHUD.DJProgressHUDTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DJProgressHUD.app/DJProgressHUD";
+			};
+			name = Release;
+		};
+		1A62EFF62488FAE70045618D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dj.DJProgressHUD.DJProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DJProgressHUD;
+			};
+			name = Debug;
+		};
+		1A62EFF72488FAE70045618D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DJProgressHUDUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.dj.DJProgressHUD.DJProgressHUDUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DJProgressHUD;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A62EFBB2488FAE50045618D /* Build configuration list for PBXProject "DJProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A62EFED2488FAE70045618D /* Debug */,
+				1A62EFEE2488FAE70045618D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A62EFEF2488FAE70045618D /* Build configuration list for PBXNativeTarget "DJProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A62EFF02488FAE70045618D /* Debug */,
+				1A62EFF12488FAE70045618D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A62EFF22488FAE70045618D /* Build configuration list for PBXNativeTarget "DJProgressHUDTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A62EFF32488FAE70045618D /* Debug */,
+				1A62EFF42488FAE70045618D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A62EFF52488FAE70045618D /* Build configuration list for PBXNativeTarget "DJProgressHUDUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A62EFF62488FAE70045618D /* Debug */,
+				1A62EFF72488FAE70045618D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A62EFB82488FAE50045618D /* Project object */;
+}

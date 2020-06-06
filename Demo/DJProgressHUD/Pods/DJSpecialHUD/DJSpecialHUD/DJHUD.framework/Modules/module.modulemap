@@ -1,0 +1,6 @@
+framework module DJHUD {
+  umbrella header "DJHUD.h"
+
+  export *
+  module * { export * }
+}
