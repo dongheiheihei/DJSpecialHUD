@@ -45,11 +45,20 @@ typedef NS_ENUM(NSInteger, DJProgressHUDStatus) {
 /** 在 window 上添加一个只显示文字的 HUD */
 + (void)showMessage:(NSString *)text;
 
+/** 在 window 上添加一个提示`警告`的 HUD(带默认图) */
++ (void)showWarn:(NSString *)text;
+
 /** 在 window 上添加一个提示`警告`的 HUD(带图) */
 + (void)showWarn:(NSString *)text image:(UIImage *)image;
 
+/** 在 window 上添加一个提示`失败`的 HUD(带默认图) */
++ (void)showError:(NSString *)text;
+
 /** 在 window 上添加一个提示`失败`的 HUD(带图) */
 + (void)showError:(NSString *)text image:(UIImage *)image;
+
+/** 在 window 上添加一个提示`成功`的 HUD(带默认图) */
++ (void)showSuccess:(NSString *)text;
 
 /** 在 window 上添加一个提示`成功`的 HUD(带图) */
 + (void)showSuccess:(NSString *)text image:(UIImage *)image;
