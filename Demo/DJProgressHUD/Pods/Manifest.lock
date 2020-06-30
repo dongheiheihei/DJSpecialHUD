@@ -1,5 +1,5 @@
 PODS:
-  - DJSpecialHUD (1.0.0):
+  - DJSpecialHUD (1.0.2):
     - MBProgressHUD
   - MBProgressHUD (1.2.0)
 
@@ -12,9 +12,9 @@ SPEC REPOS:
     - MBProgressHUD
 
 SPEC CHECKSUMS:
-  DJSpecialHUD: 800be91413d0fdd2498e7f5b3ad17b0cfc56d7ae
+  DJSpecialHUD: 43de80b523207475b89ade76b71683e44f3ee410
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
 
 PODFILE CHECKSUM: 8f7fb3f31a1af6a9a34c4a5b8191c3fad37fcdb3
 
-COCOAPODS: 1.9.1
+COCOAPODS: 1.9.3
